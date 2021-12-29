@@ -1,37 +1,40 @@
 public class myAtoiFunction {
 
-    public static int myAtoI(String str){
-        String newString;
-        int sign;
-        int newlyFormedInt;
+    public static int myAtoi(String str) {
+        int index = 0, sign = 1, total = 0;
 
-        // Rule 1 read and ignore any leading whitespace
-        newString = str.trim();
+        // Empty String
+        if(str.length() == 0) return 0;
 
-        // Rule 2 sign
-        sign = newString.charAt(0) == '-' ? -1 : 1;
+        // remove whitespaces
+        while(index < str.length() && str.charAt(index) == ' '){
+            index++;
+        }
 
+        if(index == str.length()) return 0;
 
-        // Rule 3 read until the first non numerical or end of string
-        for(int i = 0 ; i < newString.length(); i++){
-            if(newString.charAt(i) != '+' && newString.charAt(i) != '-'  && (newString.charAt(i) < 48 || newString.charAt(i) > 57) ){
-                newString = newString.substring(0, i);
-                break;
+        // -ve or +ve
+        if((index < str.length()) && (str.charAt(index) == '+') || (str.charAt(index) == '-')){
+            sign = str.charAt(index) == '+' ? 1 : -1;
+            index++;
+        }
+
+        //Convert to number and check overflow
+        while(index < str.length()){
+            int digit = str.charAt(index) - '0';
+            if(digit < 0 || digit > 9) break;
+
+            if(Integer.MAX_VALUE/10 < total || Integer.MAX_VALUE/10 == total && Integer.MAX_VALUE % 10 < digit){
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
+            total = total * 10 + digit;
+            index++;
         }
 
-
-        // Rule 4, 5 0032 --> 32
-        try {
-            newlyFormedInt = Integer.parseInt(newString);
-        }catch(Exception e){
-            newlyFormedInt = sign == '-' ? Integer.MIN_VALUE : Integer.MAX_VALUE;
-        }
-
-        return newlyFormedInt;
+        return total * sign;
     }
 
     public static void main(String[] args) {
-        System.out.println(myAtoI("-4193 with words"));
+        System.out.println(myAtoi("    -4193 with words"));
     }
 }
