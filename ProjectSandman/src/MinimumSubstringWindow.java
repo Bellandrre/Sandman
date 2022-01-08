@@ -48,6 +48,10 @@ public class MinimumSubstringWindow {
 
 
         }
+
+        if(start_index == -1){
+            return "";
+        }
         return str.substring(start_index, start_index + minWindowLen );
     }
 
