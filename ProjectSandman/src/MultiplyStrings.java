@@ -38,6 +38,7 @@ public class MultiplyStrings {
             }
         }
 
+
         if(answer.charAt(answer.length() - 1 ) == '0'){
             answer.deleteCharAt(answer.length() - 1);
         }
