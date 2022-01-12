@@ -6,32 +6,30 @@ public class BreadthFirstSearch {
     static int[] distance;
     static int[] parent;
 
+    public static void BFSInit(Map adjList, int numberOfNodes){
 
-    public static void BFSFull(Map adjList, int n){
-        color = new String[n];
-        distance = new int[n];
-        parent = new int[n];
+        color = new String[numberOfNodes];
+        distance = new int[numberOfNodes];
+        parent = new int[numberOfNodes];
+
         Arrays.fill(color, "White");
         Arrays.fill(distance, -1);
         Arrays.fill(parent, -1);
 
-        for(int i = 0 ; i < n ; i++) {
-            if ("White".equals(color[i])) {
-                callBfs(adjList, i);
-            }
-        }
+        doBreadthFirstSearch(adjList, 0);
+
+
     }
 
-    public static void callBfs(Map adjList, int source){
+    public static void doBreadthFirstSearch(Map adjList, int source){
         Deque<Integer> que = new LinkedList<>();
 
-        que.push(source);
-
+        que.addLast(source);
+        color[source] = "Gray";
         distance[source] = 0;
-        color[source] = "Gray"; // Visited
 
         while(!que.isEmpty()){
-            int node = que.poll();
+            int node = que.pollFirst();
 
             System.out.print(node + " ");
 
@@ -42,7 +40,6 @@ public class BreadthFirstSearch {
                     color[i] = "Gray";
                     distance[i] = distance[node] + 1;
                     parent[i] = node;
-
                     que.addLast(i);
                 }
             }
@@ -60,7 +57,7 @@ public class BreadthFirstSearch {
         adjList.put(3, Arrays.asList(1,4,2));
         adjList.put(4, Arrays.asList(3,0,1));
 
-        BFSFull(adjList, numberOfNodes);
+        BFSInit(adjList, numberOfNodes);
 
     }
 }
