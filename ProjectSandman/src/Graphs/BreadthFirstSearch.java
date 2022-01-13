@@ -48,8 +48,52 @@ public class BreadthFirstSearch {
         }
 
     }
+
+    public static void BFSInitAdjMatrix(int[][] matrix, int numberOfNodes){
+        color = new String[numberOfNodes];
+        distance = new int[numberOfNodes];
+        parent = new int[numberOfNodes];
+
+        Arrays.fill(color, "White");
+        Arrays.fill(distance, -1);
+        Arrays.fill(parent, -1);
+
+        BreadthFirstSearchUsingAdjacencyMatrix(matrix, 0);
+
+    }
+
+    public static void BreadthFirstSearchUsingAdjacencyMatrix(int[][] matrix, int source){
+        Deque<Integer> que = new LinkedList<>();
+
+        que.addLast(source);
+        color[source] = "Gray";
+        distance[source] = 0;
+
+        while(!que.isEmpty()){
+            int node = que.pollFirst();
+
+            System.out.print(node + " ");
+
+            for(int i = 0 ; i < matrix[node].length ; i++){
+                if(matrix[node][i] != 0 && "White".equals(color[i])) {
+                    color[i] = "Gray";
+                    distance[i] = distance[node] + 1;
+                    parent[i] = node;
+
+                    que.addLast(i);
+                }
+            }
+
+            color[node] = "Black";
+        }
+
+    }
+
     public static void main(String[] args) {
         int numberOfNodes = 5;
+        /**
+         * Breadth First Search using Adjacency List
+         */
         Map<Integer, List<Integer>> adjList = new HashMap<>();
         adjList.put(0, Arrays.asList(1,4));
         adjList.put(1, Arrays.asList(0,4,2,3));
@@ -59,5 +103,19 @@ public class BreadthFirstSearch {
 
         BFSInit(adjList, numberOfNodes);
 
+        System.out.println();
+        /**
+         * Breadth First Search using Adjacency matrix
+         */
+        int[][] adjMatrix = {{0,1,0,0,1},
+                          {1,0,1,1,1},
+                          {0,1,0,1,0},
+                          {0,1,1,0,1},
+                          {1,1,0,1,0}};
+
+
+        BFSInitAdjMatrix(adjMatrix, numberOfNodes);
+
     }
+
 }
