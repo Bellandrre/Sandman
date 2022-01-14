@@ -10,6 +10,31 @@ public class SearchInTrees {
     static TreeNode root;
 
 
+    public static void preOrderTraversal(TreeNode root){
+        if(root!= null){
+            System.out.print(root.value + " ");
+            preOrderTraversal(root.left);
+            preOrderTraversal(root.right);
+        }
+    }
+
+    public static void inOrderTraversal(TreeNode root){
+        if(root != null){
+            inOrderTraversal(root.left);
+            System.out.println(root.value);
+            inOrderTraversal(root.right);
+        }
+    }
+
+    public static void postOrderTraversal(TreeNode root){
+        if(root != null){
+         postOrderTraversal(root.left);
+         postOrderTraversal(root.right);
+         System.out.println(root.value);
+        }
+    }
+
+
     public static boolean contains(TreeNode root, int value){
         if(root == null) return false;
         if(root.value == value) return true;
@@ -32,6 +57,8 @@ public class SearchInTrees {
         System.out.println(contains(root,-10));
         System.out.println(contains(root,-1));
         System.out.println(contains(root,60));
+
+        preOrderTraversal(root);
 
     }
 }
