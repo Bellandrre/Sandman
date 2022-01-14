@@ -6,16 +6,15 @@ public class TreeNode {
     TreeNode right;
     int value;
 
+    TreeNode(){
+        this.left = null;
+        this.right = null;
+    }
+
     TreeNode(int value){
         this.left = null;
         this.right = null;
         this.value = value;
     }
 
-    public boolean addNode(TreeNode newNode){
-
-        while(newNode != null){
-            newNode = 
-        }
-    }
 }
