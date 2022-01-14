@@ -53,6 +53,28 @@ public class TraversalsInTrees {
 
     }
 
+    public static void levelOrderTraversalsWithBreaks(TreeNode root){
+        Deque<TreeNode> que = new LinkedList<>();
+
+        que.addLast(root);
+        que.addLast(null);
+
+
+        while(!que.isEmpty()){
+            TreeNode currentNode = que.pollFirst();
+            if(currentNode == null && que.peek() == null) break;
+            if(currentNode == null){
+                System.out.println();
+                que.addLast(null);
+
+            }else{
+                System.out.print(currentNode.value + " ");
+                que.addLast(currentNode.left);
+                que.addLast(currentNode.right);
+            }
+        }
+    }
+
 
     public static boolean contains(TreeNode root, int value){
         if(root == null) return false;
@@ -79,7 +101,9 @@ public class TraversalsInTrees {
 
         preOrderTraversal(root);*/
 
-        levelOrderTraversal(root);
+        //levelOrderTraversal(root);
+
+        levelOrderTraversalsWithBreaks(root);
 
 
     }
