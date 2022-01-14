@@ -1,11 +1,12 @@
 package Trees;
-
+import java.util.LinkedList;
+import java.util.Deque;
 
 /**
  * Search in normal trees
  *
  */
-public class SearchInTrees {
+public class TraversalsInTrees {
 
     static TreeNode root;
 
@@ -34,6 +35,24 @@ public class SearchInTrees {
         }
     }
 
+    public static void levelOrderTraversal(TreeNode root){
+        Deque<TreeNode> que = new LinkedList<>();
+
+        que.addLast(root);
+
+        while(!que.isEmpty()){
+            TreeNode currNode = que.pollFirst();
+
+            if(currNode!= null){
+                System.out.print(currNode.value + " ");
+
+                que.addLast(currNode.left);
+                que.addLast(currNode.right);
+            }
+        }
+
+    }
+
 
     public static boolean contains(TreeNode root, int value){
         if(root == null) return false;
@@ -54,11 +73,14 @@ public class SearchInTrees {
         root.right.left = new TreeNode(60);
 
 
-        System.out.println(contains(root,-10));
+/*        System.out.println(contains(root,-10));
         System.out.println(contains(root,-1));
         System.out.println(contains(root,60));
 
-        preOrderTraversal(root);
+        preOrderTraversal(root);*/
+
+        levelOrderTraversal(root);
+
 
     }
 }
