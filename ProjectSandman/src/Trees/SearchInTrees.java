@@ -1,5 +1,10 @@
 package Trees;
 
+
+/**
+ * Search in normal trees
+ *
+ */
 public class SearchInTrees {
 
     static TreeNode root;
@@ -10,6 +15,7 @@ public class SearchInTrees {
         if(root.value == value) return true;
         return contains(root.left, value) || contains(root.right, value);
     }
+
 
     public static void main(String[] args) {
         root = new TreeNode(55);
