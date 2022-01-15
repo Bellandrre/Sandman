@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SmallestSubstringWithRepeatingCharc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/LonelyNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SmallestSubstringWithRepeatingCharc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="398">
+              <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,14 +41,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AddBinary.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/LonelyNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="525">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
               <folding>
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/Trees/SearchInTrees.java" />
         <option value="$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" />
         <option value="$PROJECT_DIR$/src/SmallestSubstringWithRepeatingCharc.java" />
+        <option value="$PROJECT_DIR$/src/Trees/LonelyNode.java" />
       </list>
     </option>
   </component>
@@ -187,6 +187,12 @@
               <item name="ProjectSandman" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectSandman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectSandman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSandman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmallestSubstringWithRepeatingCharc">
+  <component name="RunManager" selected="Application.LonelyNode">
     <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.BreadthFirstSearch" />
       <module name="ProjectSandman" />
@@ -229,9 +235,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedArray" />
+    <configuration name="LonelyNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.LonelyNode" />
       <module name="ProjectSandman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LonelyNode" />
         <item itemvalue="Application.SmallestSubstringWithRepeatingCharc" />
         <item itemvalue="Application.TraversalsInTrees" />
         <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.MergeSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -486,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Trees/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -519,8 +524,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SmallestSubstringWithRepeatingCharc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="398">
+          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/LonelyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
