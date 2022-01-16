@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="690">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -163,8 +163,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1108" />
-    <option name="y" value="-1377" />
+    <option name="x" value="376" />
+    <option name="y" value="-1345" />
     <option name="width" value="1908" />
     <option name="height" value="1261" />
   </component>
@@ -185,12 +185,6 @@
               <item name="ProjectSandman" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectSandman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectSandman" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectSandman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SortingAndSearching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1108" y="-1377" width="1908" height="1261" extended-state="0" />
+    <frame x="376" y="-1345" width="1908" height="1261" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19935691" />
@@ -630,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SortingAndSearching/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="690">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
