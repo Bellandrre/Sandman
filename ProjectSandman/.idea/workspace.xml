@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Trees/RangeSumBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/MergeTwoBinaryTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trees/RangeSumBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="705">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees/MergeTwoBinaryTrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -67,15 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="593">
               <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MergeSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -162,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/SmallestSubstringWithRepeatingCharc.java" />
         <option value="$PROJECT_DIR$/src/Trees/LonelyNode.java" />
         <option value="$PROJECT_DIR$/src/Trees/RangeSumBST.java" />
+        <option value="$PROJECT_DIR$/src/Trees/MergeTwoBinaryTrees.java" />
       </list>
     </option>
   </component>
@@ -222,13 +223,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RangeSumBST">
-    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreadthFirstSearch" />
+  <component name="RunManager" selected="Application.MergeTwoBinaryTrees">
+    <configuration name="LonelyNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.LonelyNode" />
       <module name="ProjectSandman" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.*" />
+          <option name="PATTERN" value="Trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LonelyNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.LonelyNode" />
+    <configuration name="MergeTwoBinaryTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.MergeTwoBinaryTrees" />
       <module name="ProjectSandman" />
       <extension name="coverage">
         <pattern>
@@ -284,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoBinaryTrees" />
         <item itemvalue="Application.RangeSumBST" />
         <item itemvalue="Application.LonelyNode" />
         <item itemvalue="Application.SmallestSubstringWithRepeatingCharc" />
         <item itemvalue="Application.TraversalsInTrees" />
-        <item itemvalue="Application.BreadthFirstSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32722145" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3267412" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,8 +551,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/RangeSumBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="705">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees/MergeTwoBinaryTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
