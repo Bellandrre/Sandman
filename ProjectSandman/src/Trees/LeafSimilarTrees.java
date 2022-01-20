@@ -2,7 +2,6 @@ package Trees;
 import java.util.LinkedList;
 import java.util.List;
 
-import java.util.LinkedList;
 
 public class LeafSimilarTrees {
     static  TreeNode root1;
