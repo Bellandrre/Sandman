@@ -1,6 +1,7 @@
 package Trees;
 import java.util.LinkedList;
 import java.util.Deque;
+import java.util.Stack;
 
 /**
  * Search in normal trees
@@ -52,6 +53,33 @@ public class TraversalsInTrees {
         }
 
     }
+
+    public static void postOrderIterativeTraversal(TreeNode root){
+        if(root == null) return;
+
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
+
+        stack1.push(root);
+
+        while(!stack1.isEmpty()){
+            TreeNode currentNode = stack1.pop();
+
+            if(currentNode.left != null){
+                stack1.push(currentNode.left);
+            }
+            if(currentNode.right != null){
+                stack1.push(currentNode.right);
+            }
+            stack2.push(currentNode);
+        }
+
+        for(TreeNode curr : stack2){
+            System.out.print(curr.value + " ");
+        }
+    }
+
+
 
     public static void levelOrderTraversalsWithBreaks(TreeNode root){
         Deque<TreeNode> que = new LinkedList<>();
