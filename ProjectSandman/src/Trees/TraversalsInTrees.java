@@ -28,6 +28,25 @@ public class TraversalsInTrees {
         }
     }
 
+    public static void inOrderIterativeTraversal(TreeNode root){
+
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode curr = root;
+        while(curr != null || !stack.isEmpty()){
+
+            while(curr != null){
+                stack.push(curr);
+                curr = curr.left;
+            }
+
+            curr = stack.pop();
+            System.out.print(curr.value+ " ");
+            curr = curr.right;
+        }
+    }
+
+
     public static void postOrderTraversal(TreeNode root){
         if(root != null){
          postOrderTraversal(root.left);
@@ -36,23 +55,6 @@ public class TraversalsInTrees {
         }
     }
 
-    public static void levelOrderTraversal(TreeNode root){
-        Deque<TreeNode> que = new LinkedList<>();
-
-        que.addLast(root);
-
-        while(!que.isEmpty()){
-            TreeNode currNode = que.pollFirst();
-
-            if(currNode!= null){
-                System.out.print(currNode.value + " ");
-
-                que.addLast(currNode.left);
-                que.addLast(currNode.right);
-            }
-        }
-
-    }
 
     public static void postOrderIterativeTraversal(TreeNode root){
         if(root == null) return;
@@ -79,6 +81,23 @@ public class TraversalsInTrees {
         }
     }
 
+    public static void levelOrderTraversal(TreeNode root){
+        Deque<TreeNode> que = new LinkedList<>();
+
+        que.addLast(root);
+
+        while(!que.isEmpty()){
+            TreeNode currNode = que.pollFirst();
+
+            if(currNode!= null){
+                System.out.print(currNode.value + " ");
+
+                que.addLast(currNode.left);
+                que.addLast(currNode.right);
+            }
+        }
+
+    }
 
 
     public static void levelOrderTraversalsWithBreaks(TreeNode root){
@@ -131,7 +150,7 @@ public class TraversalsInTrees {
 
         //levelOrderTraversal(root);
 
-        levelOrderTraversalsWithBreaks(root);
+        inOrderIterativeTraversal(root);
 
 
     }
