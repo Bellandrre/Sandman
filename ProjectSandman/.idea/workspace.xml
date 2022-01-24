@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/MinimumSubstringWindow.java" line="33" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="" />
+    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
+            <state relative-caret-position="430">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -326,7 +328,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22733612" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22733612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31504923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -684,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="144" column="3" selection-start-line="144" selection-start-column="3" selection-end-line="144" selection-end-column="3" />
+        <state relative-caret-position="430">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

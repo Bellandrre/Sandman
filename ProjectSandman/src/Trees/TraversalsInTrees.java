@@ -142,11 +142,11 @@ public class TraversalsInTrees {
         root.right.left = new TreeNode(60);
 
 
-/*        System.out.println(contains(root,-10));
+        System.out.println(contains(root,-10));
         System.out.println(contains(root,-1));
         System.out.println(contains(root,60));
 
-        preOrderTraversal(root);*/
+        preOrderTraversal(root);
 
         //levelOrderTraversal(root);
 
