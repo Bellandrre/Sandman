@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/MinimumSubstringWindow.java" line="33" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="" />
+    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="284">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -314,7 +316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="25" width="1440" height="805" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
@@ -684,8 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="284">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
