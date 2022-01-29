@@ -1,12 +1,11 @@
 package Sorting;
 /*
-The insertion sort is efficient for small number of elements
+The insertion sort is efficient for small number of elements. It can be used when the arr is almost sorted.
 The best case of insertion sort is = O(n)
 The worst case of insertion sort is = O(n^2) when the elements are in reverse sorted order.
 Sorting : In place
 Stable : Yes
 Online: Yes (Elements to be sorted are provided one at a time. The algorithm is not provied with the whole input at once. The input comes one after the other)
-
  */
 public class InsertionSort {
 
