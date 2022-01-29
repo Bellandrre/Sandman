@@ -6,8 +6,19 @@ The work case of insertion sort is = O(n^2)
  */
 public class InsertionSort {
 
-    static int arr[] = {5,2,4,6,1,3};
+    static int arr[];
 
+
+    public static void generateNumber(){
+        int max = Integer.MAX_VALUE;
+        arr = new int[100000001];
+        int min = Integer.MIN_VALUE;
+        int range = max - min +1;
+        for(int i = 0 ; i <= 100000000; i++){
+            int randomNumber = (int)(Math.random() * range) + min;
+            arr[i] = randomNumber;
+        }
+    }
 
     /**
      * The insertion sort in increasing order
@@ -43,8 +54,9 @@ public class InsertionSort {
     }
 
     public static void main(String[] args) {
-        insertionSort(arr);
+        generateNumber();
         insertionSortDecresingOrder(arr);
+
         for(Integer i : arr){
             System.out.print(i + " ");
         }
