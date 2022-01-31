@@ -92,7 +92,7 @@ public class InsertionSortLinkedList {
         Node newSortedHead =  obj.insertionSort(curr);
 
         obj.printList(newSortedHead);
- 
+
 
     }
 }
