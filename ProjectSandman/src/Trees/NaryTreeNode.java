@@ -7,6 +7,7 @@ public class NaryTreeNode {
     List<NaryTreeNode> children;
 
     public NaryTreeNode(){
+        children = new ArrayList<>();
     }
 
     public NaryTreeNode(int val){
