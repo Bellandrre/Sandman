@@ -1,7 +1,5 @@
 package Trees;
-import java.util.LinkedList;
-import java.util.Deque;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Search in normal trees
@@ -10,6 +8,7 @@ import java.util.Stack;
 public class TraversalsInTrees {
 
     static TreeNode root;
+    static NaryTreeNode naryRoot;
 
 
     public static void preOrderTraversal(TreeNode root){
@@ -80,6 +79,46 @@ public class TraversalsInTrees {
             System.out.print(curr.value + " ");
         }
     }
+
+    public static void preOrderTraversalIterative(TreeNode root){
+        if(root == null) return;
+
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        List<Integer> result = new ArrayList<>();
+        while(!stack.isEmpty()){
+            TreeNode currNode = stack.pop();
+            result.add(currNode.value);
+            if(currNode.right != null)
+                stack.push(currNode.right);
+
+            if(currNode.left != null)
+                stack.push(currNode.left);
+
+        }
+
+    }
+
+    public static void naryPreOrderTraversalItervative(NaryTreeNode root){
+        if(root == null) return;
+
+        Stack<NaryTreeNode> stack = new Stack<>();
+
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            NaryTreeNode currNode = stack.pop();
+            System.out.println(currNode.val);
+
+            Collections.reverse(currNode.children);
+
+            for(NaryTreeNode n : currNode.children){
+                stack.push(n);
+            }
+        }
+    }
+
+
 
     public static void levelOrderTraversal(TreeNode root){
         Deque<TreeNode> que = new LinkedList<>();
