@@ -118,25 +118,7 @@ public class TraversalsInTrees {
         }
     }
 
-
-
-    public static void levelOrderTraversal(TreeNode root){
-        Deque<TreeNode> que = new LinkedList<>();
-
-        que.addLast(root);
-
-        while(!que.isEmpty()){
-            TreeNode currNode = que.pollFirst();
-
-            if(currNode!= null){
-                System.out.print(currNode.value + " ");
-
-                que.addLast(currNode.left);
-                que.addLast(currNode.right);
-            }
-        }
-
-    }
+    
 
 
     public static void levelOrderTraversalsWithBreaks(TreeNode root){
