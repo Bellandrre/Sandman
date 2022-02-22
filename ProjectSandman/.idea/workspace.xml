@@ -5,11 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Trees/TraversalsInTrees.java" line="88" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/ProductExceptItself.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c3aa460b-9936-4c0f-b829-d536bf664d80" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees/ProductExceptItself.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="479">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -192,10 +188,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="25" />
     <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -332,8 +328,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1440" height="804" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,7 +339,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15155807" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15155807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31444758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -776,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees/ProductExceptItself.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        <state relative-caret-position="479">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
         </state>
       </provider>
     </entry>
