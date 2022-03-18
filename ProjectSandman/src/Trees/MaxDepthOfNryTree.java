@@ -1,5 +1,5 @@
 package Trees;
-import javafx.util.Pair;
+
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -8,7 +8,7 @@ public class MaxDepthOfNryTree {
 
     static NaryTreeNode root;
 
-
+/*
     public static int maxDepth(NaryTreeNode root){
         if(root == null) return 0;
 
@@ -31,10 +31,10 @@ public class MaxDepthOfNryTree {
 
         }
         return maxDepth;
-    }
+    }*/
 
     public static void main(String[] args) {
-        NaryTreeNode newNode_1 = new NaryTreeNode();
+       /* NaryTreeNode newNode_1 = new NaryTreeNode();
         newNode_1.val = 1;
 
         NaryTreeNode newNode_2 = new NaryTreeNode();
@@ -57,7 +57,7 @@ public class MaxDepthOfNryTree {
 
         root = newNode_1;
 
-        System.out.println(maxDepth(root));
+        System.out.println(maxDepth(root));*/
 
     }
 
