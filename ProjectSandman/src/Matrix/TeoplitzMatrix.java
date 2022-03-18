@@ -59,9 +59,11 @@ public class TeoplitzMatrix {
     }
 
     public static void main(String[] args) {
-        int inputArr[][] = {{1, 2, 3, 4},
-                            {5, 1, 2, 3},
-                            {6, 5 , 1, 2}};
+        int inputArr[][] = {{8, 8, 8, 8, 8},
+                            {8, 8, 8, 8, 9},
+                            {8, 8, 8, 8, 8},
+                            {8, 8, 8, 8, 8}};
+
 
         System.out.println(isTeoplitzMatrix(inputArr));
 
