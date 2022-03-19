@@ -17,7 +17,7 @@ public class ConstructBinaryTree {
          * @param value
          * @return BST
          */
-        public BST insert(int value) {
+/*        public BST insert(int value) {
             if (value < this.value) {
                 BST leftNode = this.left;
                 while (leftNode.left != null) {
@@ -32,7 +32,7 @@ public class ConstructBinaryTree {
                 rightNode.right = new BST(value);
             }
             return this;
-        }
+        }*/
 
         /**
          * Contains a BST node
