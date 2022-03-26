@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/karth/OneDrive/Documents/GitHub/Sandman/ProjectSandman/C++ Solutions/Dynamic Programming/MinimumCostClimbingStairs.cpp
+iostream
+-
+vector
+-
+
